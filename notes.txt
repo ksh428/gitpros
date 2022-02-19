@@ -1,0 +1,2 @@
+1.restore from staging area
+2.learn stash after revising merging

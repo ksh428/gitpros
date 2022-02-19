@@ -24,3 +24,5 @@
 21.git revert SHA: undo changes in a particular commit
 22.git checkout <SHA_OF_COMMIT>: go to a sp. commit //al files are changed accordingly
 23. git restore --staged filename.extension : removes this file from staging area
+24.git remote add origin https://github.com/ksh428/gitpros.git
+25.git push -u origin master
