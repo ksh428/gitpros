@@ -26,3 +26,14 @@
 23. git restore --staged filename.extension : removes this file from staging area
 24.git remote add origin https://github.com/ksh428/gitpros.git
 25.git push -u origin master
+26.IMP: MAKE FORKED PROJ EVEN WITH UPSTEAM MAIN:
+		i. in github directly 'fetch uptream
+27.git pull origin main: pull the chnges from upstream
+//before creating a new branch make sure the mains are updated
+28. git rebase is used to merge commits //no need to use it as we have can use git revert to use it also 
+29.git pull : pulls everything
+30.git cherry pick: picks some commit not all from a sp branch:
+	(checkout to your branch) git cherry-pick SHA1 SHA2.. ..(adds them as a new commit)
+	(use cherrypick without new commit) git cherry-pick SHA1 SHA2 -n (stages them but no new commit)
+
+	
